@@ -56,3 +56,53 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+@media (max-width: 1000px) {
+
+ 
+  
+  .dice {
+    display: block;
+    margin-top: 0.5em;
+  }
+
+  p {
+    font-size: 3em;
+  }
+
+
+  #refreshButton {
+    font-size: 3em;
+    padding: 0.5em;
+  }
+
+  footer {
+    font-size: 3em;
+  }
+
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 10em;
+    
+  }
+
+  .dice {
+    display: block;
+  }
+
+  p {
+    font-size: 3em;
+  }
+
+  #refreshButton {
+    font-size: 3em;
+    padding: 0.5em;
+  }
+
+  footer {
+    font-size: 3em;
+  }
+}
+
